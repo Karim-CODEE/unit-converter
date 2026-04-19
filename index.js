@@ -3,15 +3,23 @@ modeToggleBtn = document.getElementById("mode-toggle-btn");
 lengthText = document.getElementById("length-text");
 volumeText = document.getElementById("volume-text");
 massText = document.getElementById("mass-text");
+const savedMode = localStorage.getItem("mode");
+
+if (savedMode === "light") {
+    document.body.classList.add("light-mode");
+    modeToggleBtn.textContent = "🌙 Dark Mode";
+}
 
 modeToggleBtn.addEventListener("click", function(){
     if (document.body.classList.contains("light-mode")){
         document.body.classList.remove("light-mode");
         modeToggleBtn.textContent = "☀️ Light Mode";
+        localStorage.setItem("mode", "dark");
     }
     else{
         document.body.classList.add("light-mode");
         modeToggleBtn.textContent = "🌙 Dark Mode";
+        localStorage.setItem("mode", "light");
     }
 })
 
