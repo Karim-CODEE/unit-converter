@@ -133,8 +133,7 @@ h2{
 
 footer{
     margin-top: auto; 
-    padding: 20px 0; 
-    
+    padding: 20px 0;
     width: 100%;
     text-align: center;
     background-color: var(--body-bg-color);
