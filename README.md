@@ -23,7 +23,7 @@ During the development of this project, I deepened my understanding of:
 - **Viewport Management:** Using `min-height: 100vh` and `max-width` to ensure the app looks professional on ultra-wide screens.
 
 ## 📸 Preview
-*https://karim-codee.github.io/unit-converter/*
+*https://karim-mahmoud-dev.github.io/unit-converter/*
 | Dark Mode (Default) | Light Mode |
 | :---: | :---: |
 | ![Dark Mode Screenshot](images/dark-preview.png) | ![light Mode Screenshot](images/light-preview.png) |
